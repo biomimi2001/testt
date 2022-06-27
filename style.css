@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+img {
+    width: 20%;
+  display: inline-block;
+}
+aside{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media all and (max-width: 500px) {
+    aside{
+      display: block;
+      width: 90%;
+      text-align: center;
+      margin: auto;
+    }
+    img{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+}
