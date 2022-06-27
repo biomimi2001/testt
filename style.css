@@ -12,7 +12,7 @@ aside{
     vertical-align: top;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
     aside{
       display: block;
       width: 90%;
@@ -21,7 +21,7 @@ aside{
     }
     img{
         display: block;
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 
